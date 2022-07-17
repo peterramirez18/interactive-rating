@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Overpass:wght@400;700&display=swap");
+
+@layer base {
+  body {
+    font-family: "Overpass", sans-serif;
+  }
+}
+
+@layer components {
+  .circle {
+    @apply w-[44px] h-[44px] flex items-center justify-center rounded-full;
+  }
+}
